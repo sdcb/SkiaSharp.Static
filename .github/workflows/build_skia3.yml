@@ -5,6 +5,7 @@ on:
       - ".github/workflows/**"
       - ".github/actions/**"
       - "args.gn"
+  workflow_dispatch:
 defaults:
   run:
     shell: nu {0}
